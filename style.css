@@ -9,10 +9,10 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background: linear-gradient(120deg, #ffffff, 42.9%, #4c79d3 45%);
 }
 .Inicio{
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%)
+  background: linear-gradient(120deg, #4c79d3, 47.9%, #ffffff 45%)
 }
 
 .cabecalho {
@@ -32,16 +32,17 @@ body {
   gap: 32px;
 }
 
+
 .cabecalho-menu-item {
   font-family: 'Sarala', sans-serif;
-  color: #FFF2E7;
+  color: blue;
   font-weight: 400;
   font-size: 18px
 }
 
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid black;
 }
 
 .conteudo-principal {
@@ -49,6 +50,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10%;
 }
 
 .conteudo-principal-escrito {
@@ -61,18 +63,18 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 64px;
-  color: #FFF2E7;
+  color: blue;
 }
 
 .conteudo-principal-escrito-subtitulo {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #ECD6C4;
+  color: rgb(3, 3, 3);
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #ECD6C4;
+  background-color: white;
   width: 180px;
   height: 60px;
   border: none;
@@ -81,11 +83,11 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #2F2325;
+  color: black;
 }
 
 .conteudo-principal-escrito-botao:hover {
-  background-color: rgba(236, 214, 196, 0.53);
+  background-color: rgba(53, 57, 119, 0.53);
 }
 
 .conteudo-principal-imagem {
@@ -102,12 +104,12 @@ body {
 }
 
 .conteudo-secundario-titulo {
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid #1317e0;
   padding-top: 48px;
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 24px;
-  color: #FFF2EF;
+  color: #030303;
   margin-bottom: 16px;
 }
 
@@ -115,7 +117,7 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #ECD6C4;
+  color: #030303;
 }
 
 .rodape {
@@ -124,7 +126,7 @@ body {
 }
 
 .rodape-imagem {
-  height: 48px;
+  height: 55px;
   display: block;
   margin: 0 auto;
 }
@@ -154,4 +156,17 @@ body {
   color: #FFF2EF;
   margin-bottom: 16px;
   text-align: center;
+}
+.principal-imagem-2{
+  height: 48px;
+  margin-top: 45;
+}
+.cabeçalho{
+  background-color: #4c79d3;
+}
+.conteudo-principal-imagem{
+ height: 80;
+ display: block;
+ margin: 0 auto;
+ margin: 40;
 }

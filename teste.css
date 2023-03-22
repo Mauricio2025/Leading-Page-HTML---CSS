@@ -1,0 +1,91 @@
+* {
+    margem: 0;
+    preenchimento: 0;
+    box-sizing: border-box;
+  }
+  
+  corpo {
+    largura: 100vw;
+    altura-mínima: 100vh;
+    cor de fundo: #070225;
+    display: flex;
+    justificar-conteúdo: centro;
+    alinhar-itens: centro;
+  }
+  
+  . recipiente {
+    cargo: parente;
+    display: flex;
+    justificar-conteúdo: centro;
+    alinhar-itens: centro;
+    flex-wrap: wrap;
+  }
+  . recipiente . caixa {
+    cargo: parente;
+    largura: 20rem;
+    altura: 20rem;
+    margem: 3rem;
+  }
+  . recipiente . caixa:passe o mouse . imgBox {
+    transformar: traduzir (-1,5 rem, -1,5 rem);
+  }
+  . recipiente . caixa:passe o mouse . conteúdo {
+    transformar: traduzir(3,5 rem, 3,5 rem);
+  }
+  . imgBox {
+    posição: absoluta;
+    topo: 0;
+    esquerda: 0;
+    largura: 100%;
+    altura: 100%;
+    índice-z: 2;
+    transição: todos os 0,5s de facilidade de entrada;
+  }
+  
+  . imgBox img {
+    largura: 20rem;
+    altura: 20rem;
+    ajuste do objeto: tampa;
+    redimensionar: ambos;
+  }
+  
+  . conteúdo {
+    posição: absoluta;
+    topo: 0;
+    esquerda: 0;
+    largura: 100%;
+    altura: 100%;
+    preenchimento: 0.5rem;
+    display: flex;
+    justificar-conteúdo: centro;
+    background-color: #fff;
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .content h2 {
+    display: block;
+    font-size: 2rem;
+    color: #111;
+    font-weight: 500;
+    line-height: 2rem;
+    espaçamento entre letras: 1px;
+  }
+  
+  . extensão de conteúdo {
+    cor: #555;
+    tamanho da fonte: 1.4rem;
+    peso da fonte: 300;
+    espaçamento entre letras: 2px;
+  }
+  
+  @media (largura máxima: 600px) {
+   . recipiente . caixa:passe o mouse . conteúdo {
+      transformar: traduzir(0, 3,5rem);
+    }
+   . recipiente . caixa:passe o mouse . imgBox {
+      transformar: traduzir(0, -3,5rem);
+    }
+  }
