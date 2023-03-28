@@ -197,3 +197,25 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
 .nav-item{
   background: linear-gradient(120deg, #ffffff, 42.9%, #4c79d3 45%);
 }
+.contato-icons{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contato-icons img{
+  transition: 0.2s ease;
+}
+.img{
+  max-width: 100% ;
+  height: auto;
+  display: block;
+}
