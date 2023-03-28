@@ -219,3 +219,44 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
   height: auto;
   display: block;
 }
+.js-scroll.ativo{
+  opacity: 1;
+  transform: translateX(0);
+}
+.layout{
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.skills-container {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 28px;
+  padding: 135px 100px 175px;
+}
+
+.p{
+  color: var(--text);
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 155%;
+  letter-spacing: 0.03rem;
+}
+
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.skill {
+  display: grid;
+  background-color: var(--darkbg);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: all 0.6s;
+  padding: 4px 18px 6px;
+  border-radius: 4px;
+}
