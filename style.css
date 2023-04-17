@@ -213,6 +213,10 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
 
 .contato-icons img{
   transition: 0.2s ease;
+  height: 55px;
+  display: block;
+  margin: 0 auto;
+
 }
 .img{
   max-width: 100% ;
