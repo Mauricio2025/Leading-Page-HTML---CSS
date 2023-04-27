@@ -14,35 +14,42 @@
 
 <body id="Inicio">
   <div class="cabeçalho">
-    <nav class="navbar bg-linear-gradient(120deg, #ffffff, 42.9%, #4c79d3 45%) fixed-top">
+    <nav class="navbar" style="background: linear-gradient(120deg, #ffffff, 42.9% , #4c79d3 70%);">
       <div class="container-fluid">
-        <img class="principal-imagem-2" src="./Fotos/Clean_Modern_Programmer_Developer_Web_Designer_Logo-removebg-preview.png" alt="LOGO-principal" srcset="">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="https://www.linkedin.com/in/maur%C3%ADcio-souza-da-silva-aa8218176/">
+          <img class="principal-imagem-2" src="./Fotos/Clean_Modern_Programmer_Developer_Web_Designer_Logo-removebg-preview.png" alt="LOGO-principal" srcset="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sobre</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" ><strong>Sobre</strong></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><strong>Projetos</strong></a>
+                <a class="nav-link active" href="#projetos"><strong>Projetos</strong></a>
               </li>
+              <br>
               <li class="nav-item">
-                <a class="nav-link"  href="#"><strong>Certificados</strong></a>
+                <a class="nav-link active"  href="#projetos-header"><strong>Certificados</strong></a>
               </li>
+              <br>
+              <li class="nav-item">
+                <a class="nav-link active"  href="./Formulario/Formulario de Contato.html"><strong>Contato</strong></a>
+              </li>
+              <br>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <strong>Contato</strong>
+                  <strong>Redes Socias</strong>
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="https://github.com/Mauricio2025">Github</a></li>
                   <li><a class="dropdown-item" href="https://discord.com/channels/@me">Discord</a></li>
                   <li><a class="dropdown-item" href="https://www.instagram.com/mauriciiio_souza/">Instagram</a></li>
-                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/maur%C3%ADcio-souza-da-silva-aa8218176/">Linkdin</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/maur%C3%ADcio-souza-da-silva-aa8218176/">Linkedin</a></li>
                   <li><a class="dropdown-item" href="https://wa.me/5521974471841"> WhatsApp</a></li>
                 </ul>
                 </ul>
@@ -203,11 +210,9 @@
         </a>
       </div>
     </section>
+    
     <br>
-    <button type="submit" class="btn button"><strong>Mais Certificados aqui!</strong></button>
-    <br>
-    <br>
-    <section class="Conteudo-das-Paginas">
+    <section class="Conteudo-das-Paginas" id="projetos">
       <h3 class="Conteudo-da-pagina-titulo">Projetos</h3>
       <div class="kodfun-galeri">
         <div style="background-image: url('./Fotos/NIKEL.jpeg');"></div>
@@ -221,7 +226,7 @@
     </section>
   </main>
 
-  <footer class="rodape">
+  <footer class="rodape" id="contato">
     <div class="contato-icons">
       <a href="https://www.linkedin.com/in/maur%C3%ADcio-souza-da-silva-aa8218176/">
         <img src="./Fotos/linkedin.png" alt="logo linkedin" srcset="">

@@ -38,7 +38,7 @@ body {
 
 .cabecalho-menu-item {
   font-family: 'Sarala', sans-serif;
-  color: blue;
+  color:blue;
   font-weight: 400;
   font-size: 18px;
   padding: 20px;
@@ -78,6 +78,7 @@ body {
   margin: auto;
   
 }
+
 
 .conteudo-principal-escrito {
   display: flex;
@@ -128,7 +129,7 @@ letter-spacing: 0.08em;
 }
 .conteudo-meio-da-pagina{
 padding: 6.2rem 1.2rem;
-  background: linear-gradient(120deg, #ffffff, 42.9%, #4c79d3 45%);
+  background: linear-gradient(120deg, #ffffff, 40.5%, #4c79d3 45%);
 box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
 }
 
@@ -381,3 +382,4 @@ h2{
   font-size: 1rem;
   transition: color .15s;
 }
+
