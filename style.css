@@ -326,10 +326,10 @@ letter-spacing: 0.08em;
   gap: 28px;
 }
 .projeto-titulo{
-  display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 4px;
+  display: flex;
 }
 .projeto-desc{
   display: -webkit-box;
@@ -365,7 +365,7 @@ h2{
 }
 .button {
   border-radius: 10px;
-  background-color: #2a35cf;
+  background-color: #4b1df1;
   color: #fffafa;
   width: 50%;
   margin: 0 25%;
@@ -383,3 +383,14 @@ h2{
   transition: color .15s;
 }
 
+.nome-certificado{
+  display: inline;
+	margin: 0 0 0 15px;
+  text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+  color: #161616;
+	text-decoration: underline;
+}
