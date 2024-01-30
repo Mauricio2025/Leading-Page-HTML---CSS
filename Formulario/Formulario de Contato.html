@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Developer Mauricio</title>
-    <link rel="website icon" type="png"  
-  href="../Clean Modern Programmer Developer Web Designer Logo.png">
+    <link rel="icon" type="png" href="../Clean Modern Programmer Developer Web Designer Logo.png">
     <link rel="stylesheet" href="./styleformulario/styleformulario.css">
     <link rel="stylesheet" href="styleformulario/styleformulario2.css">
 </head>
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="../Fotos/Clean_Modern_Programmer_Developer_Web_Designer_Logo-removebg-preview.png" alt="Logo Principal" style="max-width: 130px;
-                margin: 10 auto;"></h1>
+            <h1><img src="../Fotos/Clean_Modern_Programmer_Developer_Web_Designer_Logo-removebg-preview.png" alt="Logo Principal" style="max-width: 130px; margin: 10 auto;"></h1>
 
             <nav>
                 <ul>
@@ -27,18 +25,18 @@
     </header>
     <br>
     <main>
-        <form>
+        <form action="https://formspree.io/f/mvoezjjl" method="post">
             <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao" required>
+            <input type="text" id="nomesobrenome" class="input-padrao" name="nomesobrenome" required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+            <input type="email" id="email" class="input-padrao" name="email" required placeholder="seuemail@dominio.com">
 
             <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+            <input type="tel" id="telefone" class="input-padrao" name="telefone" required placeholder="(XX) XXXXX-XXXX">
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Algo que você gostou bastante é gostaria de saber mais sobre !"></textarea>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" name="mensagem" required placeholder="Algo que você gostou bastante e gostaria de saber mais sobre!"></textarea>
 
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
@@ -51,12 +49,13 @@
 
             <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
-			<input type="submit" value="Enviar formulário" class="enviar " onclick="Enviar()">
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
     </main>
 
     <footer class="rodape">
         <div class="layout">
-        <p>© 2023 Maurício Souza</p>
+            <p>© 2024 Maurício Souza</p>
         </div>
     </footer>
 </body>
